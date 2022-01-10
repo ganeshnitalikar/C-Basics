@@ -1,0 +1,7 @@
+If the value of variable match with case value then statement will be executed 
+
+If the value of variable does not match with any case value then default statement will be executed .
+
+Break Statement
+
+This Statement Is used to transfer program control out of switch block
