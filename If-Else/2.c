@@ -18,4 +18,5 @@ int main()
     {
         printf("Get Lost");
     }
+    return 0;
 }
