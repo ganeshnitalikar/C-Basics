@@ -6,13 +6,15 @@ int main()
 {
     int arr[10];
     int i;
-
+	int count= 0;
     printf("Enter 10 Elements : ");
     for(i=0; i<=9; i++)
     {
         scanf(" %d ",&arr[i]);
+        count++;
     }
-    for(i=9; i>=0; i = i -2)
+    count--;
+    for(i=count; i>=0; i = i-2)
     {
         printf(" %d ",arr[i]);
     }
