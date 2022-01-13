@@ -19,9 +19,9 @@ int main()
 	printf("Array Is : \n");
 	for(i=0;i<n;i++)
 	{
-		printf(" %d ",arr[i]);
+		printf("%d ",arr[i]);
 	}
-	printf("\nArray In Reverse Order");
+	printf("\nArray In Reverse Order :");
 	for(i=n-1;i>=0;i--)
 	{
 		printf(" %d ",arr[i]);
