@@ -12,7 +12,8 @@ int main()
 
     while(arr[i] != '\0')
     {
-        if(arr[i]>=48 && arr[i]<=57)
+        // if(arr[i]>=48 && arr[i]<=57)
+        if(arr[i]<='9' && arr[i]>='0')
         {
             printf("%c",arr[i]);
             count++;
