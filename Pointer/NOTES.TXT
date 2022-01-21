@@ -1,0 +1,27 @@
+Pointer 
+
+It is a variable in which we can store address of another variable.
+
+syntax ;
+
+dataType *ptrName 
+
+ex
+
+int a=10,b=20
+
+int *p,*q;
+
+p=&a;
+q=&b;
+
+
+--------------Pointer To Pointer----------------
+
+Pointer to pointer is a pointer in which we can store the address of another pointer.
+
+syntax :
+        **ptrName
+
+Example :
+        
