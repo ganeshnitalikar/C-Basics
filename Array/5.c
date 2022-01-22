@@ -10,7 +10,7 @@ int main()
 
     for(i=0;   i<10;  i++)
     {
-        printf("\n%c",name[i]);
+        printf("%c",name[i]);
 
         if(name[i]!='A')
         {

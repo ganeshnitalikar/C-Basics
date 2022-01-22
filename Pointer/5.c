@@ -1,26 +1,30 @@
-//DESIGN FUCTION SWAP() WHICH WILL EXCHANGE VALUE OF TWO VARIABLE BY USING POINTER.
+// DESIGN FUNCTION AREA() AND CIRCUM() WHICH WILL PRINT AREA OF CIRCLE AND CIRCUMFERENCE OF CIRCLE OF CIRCLE BY PASSING BY ADDRESS OF RADIUS AS ARGUMENT TO FUNCTION.
 
 #include <stdio.h>
-
-int swap(int x,int y)
+void area(int *r)
 {
+    float area;
     int temp;
-    temp = *x;
-    *x=*y;
-    
-
+    temp=*r;
+    area = 3.14*temp*temp;
+    printf("\nArea Of Circle Is :%.2f",area);
 }
-
+void circum(int *r)
+{
+    float circum;
+    int temp;
+    temp = *r;
+    circum = 3.14*2*temp;
+    printf("\nCicumference Of Circle Is %.2f",circum);
+}
 
 int main()
 {
-    int *p;
-    int a=20,b=30;
-
-    swap(a,b);
-
-    printf("\nValue Of A Is :%d",a);
-    printf("\nValue Of B Is :%d",b);
+    int a;
+    printf("\nEnter The Value Of Radius: ");
+    scanf("%d",&a);
+    area(&a);
+    circum(&a);
 
     return 0;
 }
