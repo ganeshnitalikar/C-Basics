@@ -3,22 +3,18 @@
 
 void area(int *l, int *b)
 {
-    int temp1,temp2,area;
-    temp1=*l;
-    temp2=*b;
+    int area;
 
-    area = temp1*temp2;
+    area = *l**b;
 
     printf("\nArea Of Rectangle Is : %d",area);
 }
 
 void perimeter(int *l, int *b)
 {
-    int temp1, temp2, perimeter;
-    temp1 =*l;
-    temp2 =*b;
+    int  perimeter;
 
-    perimeter= 2*(temp1+temp2);
+    perimeter= 2*(*l+*b);
 
     printf("\nPerimeter Of Rectangle Is : %d",perimeter);
 
@@ -28,10 +24,10 @@ int main()
 {
     int a,b;
 
-    printf("\nEnter The Value Of Lenght : ");
+    printf("\nEnter The Value Of Length : ");
     scanf("%d",&a);
 
-    printf("\nEnter The Value Of Length : ");
+    printf("\nEnter The Value Of Breadth : ");
     scanf("%d",&b);
 
     area(&a,&b);

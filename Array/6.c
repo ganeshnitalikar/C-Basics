@@ -19,7 +19,6 @@ int main()
         {
             count++;
         }
-
         i++;
     }
 

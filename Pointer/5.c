@@ -4,25 +4,23 @@
 void area(int *r)
 {
     float area;
-    int temp;
-    temp=*r;
-    area = 3.14*temp*temp;
+    area = 3.14**r**r;
     printf("\nArea Of Circle Is :%.2f",area);
 }
 void circum(int *r)
 {
     float circum;
-    int temp;
-    temp = *r;
-    circum = 3.14*2*temp;
+    circum = 3.14*2**r;
     printf("\nCicumference Of Circle Is %.2f",circum);
 }
 
 int main()
 {
     int a;
+    float cir;
     printf("\nEnter The Value Of Radius: ");
     scanf("%d",&a);
+
     area(&a);
     circum(&a);
 
