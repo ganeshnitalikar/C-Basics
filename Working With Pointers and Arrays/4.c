@@ -11,15 +11,16 @@ int main()
 
     printf("\nGiven Array : \n");
 
-    for(i=0;  i<6;   i++)
+    for(i=0;  i<7;   i++)
     {
         printf("%d ",*ptr);
         *ptr++;
+		
     }
-
+*ptr--;
     printf("\nGiven Array In Reverse Order\n");
-
-    for(i=0;  i<6;  i++)
+	
+    for(i=0;  i<7;  i++)
     {
         printf("%d ",*ptr);
         *ptr--;

@@ -1,0 +1,3 @@
+In c programming a function parameter is used to hold address of an arguments which is passed while calling the function is know as call by reference.
+
+When a function is called by reference and if we want to change reference variable then it will effect to original variable.
