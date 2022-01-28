@@ -1,0 +1,20 @@
+Customer Name : Ganesh.txt
+Product Name : pen
+Rate : 20
+Quantity : 30
+Bill Amount : 600
+
+
+Total Bill Amount Is 0
+		-------------------		
+
+Customer Name : Ganesh.txt
+Product Name : Pencila
+Rate : 23
+Quantity : 3
+Bill Amount : 69
+
+
+Total Bill Amount Is 600
+		-------------------		
+

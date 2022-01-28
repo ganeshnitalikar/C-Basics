@@ -1,0 +1,7 @@
+
+Student Name : Ganesh
+Physics Marks : 75
+Chemistry Marks : 75
+Math Marks : 75
+Result : 75.00
+Student Passed With Distinction

@@ -1,0 +1,17 @@
+--------------File Handing Functions-----------------
+
+1)fopen() : This function will open existing file(or create new file)
+2)fprintf() : This function will write data inside the file.
+3)fscanf() : This function wil read the data from the file.
+4)fputc() : This function will write character into the file.
+5)fgetc() : This function will read the character from the file.
+6)fclose() : This function will close the file. (used to release the memory/better performance)
+
+
+File Modes
+1) w : writing
+2) r : reading 
+3) a : appending data
+4) d : deleting data 
+5) 
+

@@ -1,0 +1,46 @@
+Customer Name : Ganesh
+Product Name : Pen
+Rate : 20
+Quantity : 3
+Bill Amount : 60
+		-------------------		
+Customer Name : Suresh
+Product Name : Pencils
+Rate : 30
+Quantity : 3
+Bill Amount : 90
+		-------------------		
+Customer Name : Ganesh
+Product Name : pen
+Rate : 40
+Quantity : 30
+Bill Amount : 1200
+
+		-------------------		
+Customer Name : ram
+Product Name : wallet
+Rate : 30
+Quantity : 2
+Bill Amount : 60
+
+		-------------------		
+Customer Name : Ganesh
+Product Name : pen
+Rate : 20
+Quantity : 30
+Bill Amount : 600
+
+
+Total Bill Amount Is 0
+		-------------------		
+
+Customer Name : Ganesh
+Product Name : pensils
+Rate : 10
+Quantity : 100
+Bill Amount : 1000
+
+
+Total Bill Amount Is 600
+		-------------------		
+

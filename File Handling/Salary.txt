@@ -1,0 +1,96 @@
+
+Employee Name : Ganesh
+Working Days : 30
+Wage : 2000
+Payment Of Employee : 60000
+Tax : 12000.000000
+Salary : 48000.000000
+
+--------------------------------------
+
+
+Total Tax Payers : 1
+Total Employees Without Tax : 0
+
+
+--------------------------------------
+
+
+Employee Name : Suresh
+Working Days : 20
+Wage : 5000
+Payment Of Employee : 100000
+Tax : 20000.000000
+Salary : 80000.000000
+
+--------------------------------------
+
+
+Total Tax Payers : 2
+Total Employees Without Tax : 0
+
+
+--------------------------------------
+
+
+Employee Name : Ram
+Working Days : 3
+Wage : 2000
+Payment Of Employee : 6000
+Salary : 6000
+
+--------------------------------------
+
+
+Total Tax Payers : 2
+Total Employees Without Tax : 1
+
+
+--------------------------------------
+
+
+Employee Name : Shubham
+Working Days : 3
+Wage : 7000
+Payment Of Employee : 21000
+Tax : 4200.000000
+Salary : 16800.000000
+
+--------------------------------------
+
+
+Total Tax Payers : 3
+Total Employees Without Tax : 1
+
+
+--------------------------------------
+
+
+Employee Name : Ramesh
+Working Days : 3
+Wage : 3000
+Payment Of Employee : 9000
+Salary : 9000
+
+--------------------------------------
+
+
+Total Tax Payers : 3
+Total Employees Without Tax : 2
+
+
+--------------------------------------
+
+
+Employee Name : Tejas
+Working Days : 4
+Wage : 3000
+Payment Of Employee : 12000
+Salary : 12000
+
+--------------------------------------
+
+Total Tax Payers : 0
+Total Employees Without Tax : 1
+
+--------------------------------------
