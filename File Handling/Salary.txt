@@ -94,3 +94,29 @@ Total Tax Payers : 0
 Total Employees Without Tax : 1
 
 --------------------------------------
+
+Employee Name : Ganesh
+Working Days : 3
+Wage : 3000
+Payment Of Employee : 9000
+Salary : 9000
+
+--------------------------------------
+
+Total Tax Payers : 0
+Total Employees Without Tax : 1
+
+--------------------------------------
+
+Employee Name : Hl30
+Working Days : 44
+Wage : 340
+Payment Of Employee : 14960
+Salary : 14960
+
+--------------------------------------
+
+Total Tax Payers : 0
+Total Employees Without Tax : 2
+
+--------------------------------------

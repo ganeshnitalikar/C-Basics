@@ -10,14 +10,15 @@ int main()
     int wages, wdays, payment, te = 0, nte = 0,ch;
     float tax, salary;
     char ename[20];
-    FILE *f;
+    FILE *f,*f1;
 
-    f = fopen("Salary.txt", "a");
     do
     {
         printf("\nEnter The Employee Name : ");
         scanf("%s", &ename);
 
+        f = fopen(ename,"_salary_txt", "w");
+        f1 = fopen("salary.txt","a");
         printf("\nEnter The Wage : ");
         scanf("%d", &wages);
 
@@ -26,17 +27,6 @@ int main()
 
         payment = wages * wdays;
 
-        // if (payment >= 20000)
-        // {
-        //     tax = payment * 0.20;
-        //     salary = payment - tax;
-        //     te++;
-        // }
-        // else
-        // {
-        //     salary = payment;
-        //     nte++;
-        // }
 
         fprintf(f, "\nEmployee Name : %s", ename);
         fprintf(f, "\nWorking Days : %d", wdays);
@@ -58,9 +48,9 @@ int main()
         fprintf(f, "\nTotal Tax Payers : %d", te);
         fprintf(f, "\nTotal Employees Without Tax : %d\n", nte);
         fprintf(f,"\n--------------------------------------\n");
-        printf("\nDo You Want To Add ");
-        printf("\nYes");
-        printf("\nNO\n");
+        printf("\nDo You Want To Add More Employees");
+        printf("\n1.Continue");
+        printf("\n2.Exit\n");
         scanf("%d", &ch);
     } while (ch == 1);
     return 0;

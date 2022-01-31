@@ -1,0 +1,14 @@
+--------------------------Marksheet---------------------
+
+
+Student Name : Ganesh_marksheet.txt
+Roll Number : 343
+
+----Scorecard-----
+Physics : 65
+Chemistry : 45
+Math : 34
+Total Marks Obtained : 144
+Percentage : 48.00
+Failed
+
